@@ -71,10 +71,10 @@ var idx=(d.getMonth()*31+d.getDate()+d.getFullYear())%H.length;
 var f=H[idx];
 
 var box=document.createElement("div");
-box.style.cssText="background:#fdfaf6;border:1px solid #d6c9b8;border-radius:8px;overflow:hidden;font-family:'Hiragino Mincho ProN','Yu Mincho',serif;text-align:center;line-height:1;";
+box.style.cssText="width:95%;background:#fdfaf6;border:1px solid #d6c9b8;border-radius:8px;overflow:hidden;font-family:'Hiragino Mincho ProN','Yu Mincho',serif;text-align:center;line-height:1;";
 
 var imgWrap=document.createElement("div");
-imgWrap.style.cssText="width:95%;height:130px;overflow:hidden;background:#ede8df;";
+imgWrap.style.cssText="width:100%;height:130px;overflow:hidden;background:#ede8df;";
 
 var imgLoading=document.createElement("div");
 imgLoading.style.cssText="font-size:11px;color:#a0917e;line-height:130px;";
